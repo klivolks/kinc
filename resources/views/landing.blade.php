@@ -4,8 +4,10 @@
 <meta charset="UTF-8">
 <title>KLUBSTA - What&acute;s buzzing?</title>
 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="/images/logo2.png" rel="icon">
+<link rel="shortcut icon" href="/images/logo2.png">
 <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
-<link type="text/css" rel="stylesheet" href="/css/style.css?v1.0.0"  media="screen,projection"/>
+<link type="text/css" rel="stylesheet" href="/css/style.css?v1.0.2"  media="screen,projection"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
@@ -32,7 +34,16 @@
 						<div class="col m4 s12 tag-title">
 							REDEFINING<br>
 							LIFESTYLE
+							<div class="bottom-like">
+								<div
+								  class="fb-like"
+								  data-share="true"
+								  data-width="450"
+								  data-show-faces="true">
+								</div>
+							</div>
 						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -53,7 +64,7 @@
 				</div>
 				<div class="col m4 s12">
 					<div class="about-intro">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mauris mauris, auctor vitae ultricies nec, malesuada a urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras sit amet dui iaculis, molestie nisl ac, hendrerit felis. Praesent sodales nisl in felis pharetra consequat. Morbi scelerisque semper fermentum. Integer ornare faucibus velit quis mollis. Nullam iaculis est felis, non pharetra libero vehicula sed.
+						is more than what you expect. It is an online application working based on cloud concept automating your daily life increasing your revenue and making you up-to-date with information sharing and satisfys your business needs with required common as well as customized features. It is not an ERP tool but can be used so. For students this can be a note sharing tool. Like wise this is a flexible as well as scalable application for all your needs.
 					</div>
 				</div>
 			</div>
@@ -96,16 +107,16 @@
 						<span class="oui">Oui</span> KLUBBER
 					</div>
 				</div>
-				<div class="col m6 s12 intro">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus lacus est, vel vulputate ipsum volutpat sed. Vivamus et tincidunt tortor. Nulla facilisi. Cras a neque vel dui faucibus suscipit. Nullam mattis metus volutpat dolor malesuada facilisis. Nunc hendrerit suscipit turpis, a gravida ligula malesuada id. Aliquam massa orci, laoreet et viverra id, scelerisque sit amet mi. Sed nisi augue, pellentesque pulvinar ultricies quis, porttitor ut ex. Nulla vulputate mattis pellentesque. Vestibulum eget bibendum ex. Proin tincidunt est non tristique ornare. Aliquam sit amet purus id diam feugiat condimentum ac sed nunc.</p>
+				<div class="col m6 s12 intro" style="max-height: 300px; overflow-y: auto;">
+					<p>you can be part of us through a highly classified procedure. We are making this platform more secure by avoiding fake contacts and strictly restricting stalking. You can be a member of an org where you can connect with your collegues share work related things, chit chat and gossip and using klubs to do social activities. But you will always have a personal circum which is hidden from all others where you discuss and share information that is specifially meant for them. You will also be part of fam where you can do a lot more than just social networking. We are promoting more than mobile by making you enjoy real than virtual world, where you increase your insecurities, which social networking sites currently induce into you.</p>
 					
-					<p>Donec eget diam ultrices, imperdiet velit posuere, tempus tellus. Integer a urna lectus. Aliquam consequat congue pellentesque. Fusce eu molestie dui, id euismod sem. Suspendisse suscipit tristique ligula. Proin ac metus turpis.</p>
+					<p>It is just a glimpse of something big and we are driven and improved ourselves based on community feedbacks. So altogether your personal life is hidden from other circles and you stay secure. For being a klubber you should be either a member of klubsta registered org or klub. Also we are restricting membership based on regions. So wait until we reach your locality or we take your org or klub into cloud.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="/js/materialize.min.js"></script>
-	<script type="text/javascript" src="/js/script.js"></script>
+	<script type="text/javascript" src="/js/script.js?v1.0.1"></script>
 </body>
 </html>

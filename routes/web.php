@@ -32,3 +32,6 @@ Route::get('login', function (Request $request) {
 Route::get('/{username}', function ($username=null) {
 		return '<title>'.$username.' - KLUBSTA | Taking you next level</title>'.view('fun',['username'=>$username]);
 });
+Route::get('/{username}/home', function ($username=null) {
+		return redirect('/'.$username);
+});

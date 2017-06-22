@@ -144,6 +144,7 @@ Date: 01 June 2017
 	background-size: 50%;
 	filter: alpha(opacity=50);
 	opacity: 0.5;
+	z-index: -1;
 }
 .join-popup-title{
 	font-family: "Aileron";
@@ -159,8 +160,14 @@ Date: 01 June 2017
 	margin-top: 20px;
 	font-size: 16px;
 }
+.bottom-like{
+	margin-top: 200px;
+}
 @media screen and (max-width:768px){
 	.logo{
 		font-size: 52px;
+	}
+	.intro{
+		overflow: scroll;
 	}
 }
