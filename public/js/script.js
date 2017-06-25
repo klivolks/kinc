@@ -25,10 +25,11 @@ $(function(){
 			  $(".join").css("display","block"); 
 			$(".join").animate({"top":"0px"},500);
 			  write_join();
-			$(".i-hide").delay(2000).fadeOut(500);
+			$(".i-hide").delay(1500).fadeOut(500);
 			$(".i-rot").delay(2000).fadeIn(500);
 		  }
 	});
+	$('.scroll-pane').jScrollPane();
 });
 function write_about(){
 	"use strict";
@@ -52,19 +53,3 @@ function show_join(){
 
   ga('create', 'UA-93362921-3', 'auto');
   ga('send', 'pageview');
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '796032190561711',
-      xfbml      : true,
-      version    : 'v2.9'
-    });
-    FB.AppEvents.logPageView();
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));

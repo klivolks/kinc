@@ -7,8 +7,14 @@
 <link href="/images/logo2.png" rel="icon">
 <link rel="shortcut icon" href="/images/logo2.png">
 <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
-<link type="text/css" rel="stylesheet" href="/css/style.css?v1.0.2"  media="screen,projection"/>
+<link type="text/css" rel="stylesheet" href="/css/style.css?v1.0.4"  media="screen,projection"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta property="og:image" content="https://klubsta.com/images/og-image.jpg?v=1.0.1">
+<meta property="og:type"               content="article" />
+<meta property="og:url" content="https://www.klubsta.com/">
+<meta property="og:title" content="KLUBSTA - What&acute;s buzzing?">
+<meta property="og:description" content="Klubsta is more than what you expect. It is an online application working based on cloud concept automating your daily life increasing your revenue and making you up-to-date with information sharing and satisfys your business needs with required common as well as customized features.">
+<meta property="fb:app_id" content="796032190561711">
 </head>
 
 <body>
@@ -32,15 +38,10 @@
 					<div class="row">
 						<div class="col m8 s12"></div>
 						<div class="col m4 s12 tag-title">
-							REDEFINING<br>
-							LIFESTYLE
-							<div class="bottom-like">
-								<div
-								  class="fb-like"
-								  data-share="true"
-								  data-width="450"
-								  data-show-faces="true">
-								</div>
+							WHAT&acute;S<br>
+							BUZZING?
+							<div class="jumbing-mouse mouse-icon">
+								<img src="/images/mouse-white.png">
 							</div>
 						</div>
 						
@@ -65,6 +66,9 @@
 				<div class="col m4 s12">
 					<div class="about-intro">
 						is more than what you expect. It is an online application working based on cloud concept automating your daily life increasing your revenue and making you up-to-date with information sharing and satisfys your business needs with required common as well as customized features. It is not an ERP tool but can be used so. For students this can be a note sharing tool. Like wise this is a flexible as well as scalable application for all your needs.
+					</div>
+					<div class="jumbing-mouse mouse-icon">
+						<img src="/images/mouse-black.png">
 					</div>
 				</div>
 			</div>
@@ -117,6 +121,6 @@
 	</section>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="/js/materialize.min.js"></script>
-	<script type="text/javascript" src="/js/script.js?v1.0.1"></script>
+	<script type="text/javascript" src="/js/script.js?v1.0.4"></script>
 </body>
 </html>
