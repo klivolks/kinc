@@ -13,7 +13,7 @@ class CreateSubKlubMemberTable extends Migration
      */
     public function up()
     {
-        Schema::create('sub_klub_member', function (Blueprint $table) {
+        Schema::create('sub_klub_members', function (Blueprint $table) {
             $table->increments('id');
 			$table->integer('sklub_id');
 			$table->integer('user_id');
@@ -31,6 +31,6 @@ class CreateSubKlubMemberTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('sub_klub_member');
+        Schema::dropIfExists('sub_klub_members');
     }
 }

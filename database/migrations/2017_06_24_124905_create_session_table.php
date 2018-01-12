@@ -13,9 +13,10 @@ class CreateSessionTable extends Migration
      */
     public function up()
     {
-        Schema::create('session', function (Blueprint $table) {
+        Schema::create('sessions', function (Blueprint $table) {
             $table->increments('id');
 			$table->integer('user_id');
+			$table->string('domain');
 			$table->string('IsActive',1);
 			$table->dateTime('logged_in');
 			$table->dateTime('logged_out');
@@ -36,6 +37,6 @@ class CreateSessionTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('session');
+        Schema::dropIfExists('sessions');
     }
 }

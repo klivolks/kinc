@@ -29,7 +29,6 @@ $(function(){
 			$(".i-rot").delay(2000).fadeIn(500);
 		  }
 	});
-	$('.scroll-pane').jScrollPane();
 });
 function write_about(){
 	"use strict";

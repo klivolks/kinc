@@ -13,7 +13,7 @@ class CreatePasswordTable extends Migration
      */
     public function up()
     {
-        Schema::create('password', function (Blueprint $table) {
+        Schema::create('passwords', function (Blueprint $table) {
             $table->increments('id');
 			$table->string('user_id');
 			$table->string('password');
@@ -34,6 +34,6 @@ class CreatePasswordTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('password');
+        Schema::dropIfExists('passwords');
     }
 }

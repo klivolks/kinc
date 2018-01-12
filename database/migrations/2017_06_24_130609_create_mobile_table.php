@@ -13,10 +13,11 @@ class CreateMobileTable extends Migration
      */
     public function up()
     {
-        Schema::create('mobile', function (Blueprint $table) {
+        Schema::create('mobiles', function (Blueprint $table) {
             $table->increments('id');
 			$table->string('number');
 			$table->integer('country');
+			$table->integer('user_id');
 			$table->string('IsOTPVerified',1);
 			$table->string('IsCallVerified',1);
 			$table->integer('otp');
@@ -33,6 +34,6 @@ class CreateMobileTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('mobile');
+        Schema::dropIfExists('mobiles');
     }
 }

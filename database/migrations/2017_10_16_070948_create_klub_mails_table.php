@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTravelTable extends Migration
+class CreateKlubMailsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,15 @@ class CreateTravelTable extends Migration
      */
     public function up()
     {
-        Schema::create('travels', function (Blueprint $table) {
+        Schema::create('klub_mails', function (Blueprint $table) {
             $table->increments('id');
+			$table->string('email');
+			$table->integer('klub_id');
 			$table->integer('user_id');
-			$table->integer('locality');
-			$table->date('dot');
+			$table->string('IsPrimary',1);
+			$table->string('IsActive',1);
+			$table->string('IsVerified',1);
+			$table->string('verification_key');
             $table->timestamps();
         });
     }
@@ -29,6 +33,6 @@ class CreateTravelTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('travels');
+        Schema::dropIfExists('klub_mails');
     }
 }

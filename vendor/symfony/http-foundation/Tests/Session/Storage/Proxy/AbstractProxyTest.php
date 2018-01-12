@@ -92,9 +92,9 @@ class AbstractProxyTest extends TestCase
      */
     public function testIsActive()
     {
-        $this->assertFalse($this->proxy->isActive());
+        $this->assertFalse($this->proxy->IsActive());
         session_start();
-        $this->assertTrue($this->proxy->isActive());
+        $this->assertTrue($this->proxy->IsActive());
     }
 
     /**

@@ -13,7 +13,7 @@ class CreateLivingPlaceTable extends Migration
      */
     public function up()
     {
-        Schema::create('living_place', function (Blueprint $table) {
+        Schema::create('living_places', function (Blueprint $table) {
             $table->increments('id');
 			$table->integer('city_id');
 			$table->integer('user_id');
@@ -31,6 +31,6 @@ class CreateLivingPlaceTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('living_place');
+        Schema::dropIfExists('living_places');
     }
 }

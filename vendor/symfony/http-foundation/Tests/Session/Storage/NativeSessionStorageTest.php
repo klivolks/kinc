@@ -218,12 +218,12 @@ class NativeSessionStorageTest extends TestCase
     {
         $storage = $this->getStorage();
 
-        $this->assertFalse($storage->getSaveHandler()->isActive());
+        $this->assertFalse($storage->getSaveHandler()->IsActive());
         $this->assertFalse($storage->isStarted());
 
         session_start();
         $this->assertTrue(isset($_SESSION));
-        $this->assertTrue($storage->getSaveHandler()->isActive());
+        $this->assertTrue($storage->getSaveHandler()->IsActive());
 
         // PHP session might have started, but the storage driver has not, so false is correct here
         $this->assertFalse($storage->isStarted());

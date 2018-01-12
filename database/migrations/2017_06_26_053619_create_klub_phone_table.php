@@ -13,7 +13,7 @@ class CreateKlubPhoneTable extends Migration
      */
     public function up()
     {
-        Schema::create('klub_phone', function (Blueprint $table) {
+        Schema::create('klub_phones', function (Blueprint $table) {
             $table->increments('id');
 			$table->integer('phone');
 			$table->integer('sklub_id');
@@ -30,6 +30,6 @@ class CreateKlubPhoneTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('klub_phone');
+        Schema::dropIfExists('klub_phones');
     }
 }

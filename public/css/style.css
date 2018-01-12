@@ -6,14 +6,10 @@ Company: Klivolks India Pvt Ltd
 Date: 01 June 2017
 */
 @import url('https://fonts.googleapis.com/css?family=Vibur');
+@import url('https://fonts.klubsta.com/eurasia');
 @font-face{
 	font-family: "Aileron";
 	src: url(/fonts/Ailerons-Typeface.otf) ;
-	font-weight: 900;
-}
-@font-face{
-	font-family: "Eurasia";
-	src: url(/fonts/Eurasia-Regular.ttf) ;
 	font-weight: 900;
 }
 

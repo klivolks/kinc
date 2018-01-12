@@ -13,7 +13,7 @@ class CreateAlbumTable extends Migration
      */
     public function up()
     {
-        Schema::create('album', function (Blueprint $table) {
+        Schema::create('albums', function (Blueprint $table) {
             $table->increments('id');
 			$table->string('name');
 			$table->string('IsDeleted',1);
@@ -28,6 +28,6 @@ class CreateAlbumTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('album');
+        Schema::dropIfExists('albums');
     }
 }

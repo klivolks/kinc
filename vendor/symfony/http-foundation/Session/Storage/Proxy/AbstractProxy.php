@@ -65,7 +65,7 @@ abstract class AbstractProxy
      *
      * @return bool
      */
-    public function isActive()
+    public function IsActive()
     {
         return \PHP_SESSION_ACTIVE === session_status();
     }
@@ -89,7 +89,7 @@ abstract class AbstractProxy
      */
     public function setId($id)
     {
-        if ($this->isActive()) {
+        if ($this->IsActive()) {
             throw new \LogicException('Cannot change the ID of an active session');
         }
 
@@ -115,7 +115,7 @@ abstract class AbstractProxy
      */
     public function setName($name)
     {
-        if ($this->isActive()) {
+        if ($this->IsActive()) {
             throw new \LogicException('Cannot change the name of an active session');
         }
 

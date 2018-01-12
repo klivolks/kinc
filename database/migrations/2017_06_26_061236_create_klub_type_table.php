@@ -13,7 +13,7 @@ class CreateKlubTypeTable extends Migration
      */
     public function up()
     {
-        Schema::create('klub_type', function (Blueprint $table) {
+        Schema::create('klub_types', function (Blueprint $table) {
             $table->increments('id');
 			$table->string('name');
             $table->timestamps();
@@ -27,6 +27,6 @@ class CreateKlubTypeTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('klub_type');
+        Schema::dropIfExists('klub_types');
     }
 }

@@ -13,7 +13,7 @@ class CreateLangugesKnownTable extends Migration
      */
     public function up()
     {
-        Schema::create('languages_known', function (Blueprint $table) {
+        Schema::create('languages_knowns', function (Blueprint $table) {
             $table->increments('id');
 			$table->integer('user_id');
 			$table->integer('language_id');
@@ -28,6 +28,6 @@ class CreateLangugesKnownTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('languages_known');
+        Schema::dropIfExists('languages_knowns');
     }
 }

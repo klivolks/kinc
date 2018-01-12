@@ -13,7 +13,7 @@ class CreateLocalityTable extends Migration
      */
     public function up()
     {
-        Schema::create('locality', function (Blueprint $table) {
+        Schema::create('localitys', function (Blueprint $table) {
             $table->increments('id');
 			$table->string('locality');
 			$table->integer('city');
@@ -29,6 +29,6 @@ class CreateLocalityTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('locality');
+        Schema::dropIfExists('localitys');
     }
 }

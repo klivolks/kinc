@@ -13,7 +13,7 @@ class CreateKlubTable extends Migration
      */
     public function up()
     {
-        Schema::create('klub', function (Blueprint $table) {
+        Schema::create('klubs', function (Blueprint $table) {
             $table->increments('id');
 			$table->string('kname');
 			$table->string('rname');
@@ -33,6 +33,6 @@ class CreateKlubTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('klub');
+        Schema::dropIfExists('klubs');
     }
 }

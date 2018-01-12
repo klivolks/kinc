@@ -73,7 +73,7 @@ class PHPConsoleHandlerTest extends TestCase
             ->setMethods(array(
                 'sendMessage',
                 'onShutDown',
-                'isActiveClient',
+                'IsActiveClient',
                 'setSourcesBasePath',
                 'setServerEncoding',
                 'setPassword',
@@ -85,7 +85,7 @@ class PHPConsoleHandlerTest extends TestCase
             ->getMock();
 
         $connector->expects($this->any())
-            ->method('isActiveClient')
+            ->method('IsActiveClient')
             ->will($this->returnValue(true));
 
         return $connector;

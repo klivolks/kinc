@@ -105,7 +105,7 @@ class PHPConsoleHandler extends AbstractProcessingHandler
             Helper::register();
         }
 
-        if ($this->options['enabled'] && $connector->isActiveClient()) {
+        if ($this->options['enabled'] && $connector->IsActiveClient()) {
             if ($this->options['useOwnErrorsHandler'] || $this->options['useOwnExceptionsHandler']) {
                 $handler = Handler::getInstance();
                 $handler->setHandleErrors($this->options['useOwnErrorsHandler']);
@@ -159,7 +159,7 @@ class PHPConsoleHandler extends AbstractProcessingHandler
 
     public function handle(array $record)
     {
-        if ($this->options['enabled'] && $this->connector->isActiveClient()) {
+        if ($this->options['enabled'] && $this->connector->IsActiveClient()) {
             return parent::handle($record);
         }
 

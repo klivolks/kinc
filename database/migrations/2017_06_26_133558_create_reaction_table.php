@@ -13,7 +13,7 @@ class CreateReactionTable extends Migration
      */
     public function up()
     {
-        Schema::create('reaction', function (Blueprint $table) {
+        Schema::create('reactions', function (Blueprint $table) {
             $table->increments('id');
 			$table->integer('post_id');
 			$table->integer('icon_id');
@@ -30,6 +30,6 @@ class CreateReactionTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('reaction');
+        Schema::dropIfExists('reactions');
     }
 }

@@ -52,9 +52,9 @@ class SessionHandlerProxyTest extends TestCase
             ->method('open')
             ->will($this->returnValue(true));
 
-        $this->assertFalse($this->proxy->isActive());
+        $this->assertFalse($this->proxy->IsActive());
         $this->proxy->open('name', 'id');
-        $this->assertFalse($this->proxy->isActive());
+        $this->assertFalse($this->proxy->IsActive());
     }
 
     public function testOpenFalse()
@@ -63,9 +63,9 @@ class SessionHandlerProxyTest extends TestCase
             ->method('open')
             ->will($this->returnValue(false));
 
-        $this->assertFalse($this->proxy->isActive());
+        $this->assertFalse($this->proxy->IsActive());
         $this->proxy->open('name', 'id');
-        $this->assertFalse($this->proxy->isActive());
+        $this->assertFalse($this->proxy->IsActive());
     }
 
     public function testClose()
@@ -74,9 +74,9 @@ class SessionHandlerProxyTest extends TestCase
             ->method('close')
             ->will($this->returnValue(true));
 
-        $this->assertFalse($this->proxy->isActive());
+        $this->assertFalse($this->proxy->IsActive());
         $this->proxy->close();
-        $this->assertFalse($this->proxy->isActive());
+        $this->assertFalse($this->proxy->IsActive());
     }
 
     public function testCloseFalse()
@@ -85,9 +85,9 @@ class SessionHandlerProxyTest extends TestCase
             ->method('close')
             ->will($this->returnValue(false));
 
-        $this->assertFalse($this->proxy->isActive());
+        $this->assertFalse($this->proxy->IsActive());
         $this->proxy->close();
-        $this->assertFalse($this->proxy->isActive());
+        $this->assertFalse($this->proxy->IsActive());
     }
 
     public function testRead()

@@ -13,7 +13,7 @@ class CreateTeamTable extends Migration
      */
     public function up()
     {
-        Schema::create('team', function (Blueprint $table) {
+        Schema::create('teams', function (Blueprint $table) {
             $table->increments('id');
 			$table->string('tname');
 			$table->integer('klub_id');
@@ -31,6 +31,6 @@ class CreateTeamTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('team');
+        Schema::dropIfExists('teams');
     }
 }

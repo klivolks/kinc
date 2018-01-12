@@ -7,7 +7,7 @@
 <link href="/images/logo2.png" rel="icon">
 <link rel="shortcut icon" href="/images/logo2.png">
 <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
-<link type="text/css" rel="stylesheet" href="/css/style.css?v1.0.4"  media="screen,projection"/>
+<link type="text/css" rel="stylesheet" href="/css/style.css?v1.0.7"  media="screen,projection"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta property="og:image" content="https://klubsta.com/images/og-image.jpg?v=1.0.1">
 <meta property="og:type"               content="article" />
@@ -121,6 +121,6 @@
 	</section>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="/js/materialize.min.js"></script>
-	<script type="text/javascript" src="/js/script.js?v1.0.4"></script>
+	<script type="text/javascript" src="/js/script.js?v1.0.5"></script>
 </body>
 </html>

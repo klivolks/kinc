@@ -272,7 +272,7 @@ class NativeSessionStorage implements SessionStorageInterface
             throw new \InvalidArgumentException(sprintf('The SessionBagInterface %s is not registered.', $name));
         }
 
-        if ($this->saveHandler->isActive() && !$this->started) {
+        if ($this->saveHandler->IsActive() && !$this->started) {
             $this->loadSession();
         } elseif (!$this->started) {
             $this->start();
